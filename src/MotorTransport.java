@@ -3,7 +3,7 @@ public abstract class MotorTransport extends WheeledTransport{
         super(modelName, wheelCount);
     }
     public void checkEngine(){
-        System.out.println("Проверяем двигатель");
+        System.out.println("Проверяем двигатель у транспорта " + getModelName());
     }
 
     @Override

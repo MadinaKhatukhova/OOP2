@@ -14,7 +14,7 @@ public abstract class WheeledTransport implements Transport{
         return wheelCount;
     }
     public void updateTyre(){
-        System.out.println("Меняем шину");
+        System.out.println("Меняем шину у велосипеда " + getModelName());
     }
 
     @Override
